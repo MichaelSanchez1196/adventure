@@ -15,7 +15,9 @@ double spelunk(int people);
 
 int main(){
   
-
+  //cout << spelunk(5) << endl;
+  //cout << spelunk(5) << endl;
+  cout << spelunk(10) << endl;
   return 0;
 }
 char menu(){
@@ -44,6 +46,7 @@ double spelunk(int people){
     {
         baseCharge = (700 * people) - ((700 * people) * .1);
     }
+    cout << baseCharge << endl;
     
     cout << "How many people want Equipment Rental?\n";
     cin >> num;
